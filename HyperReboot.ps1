@@ -1,9 +1,9 @@
 Param(
-    [Switch]$DownAllVM = $false,
-    [Switch]$RebootSBRouter = $false,
-    [Switch]$OSReboot = $false,
-    [Switch]$WaitSBRouter = $false,
-    [Switch]$UpAllVM = $false
+    [Switch]$DownAllVM,
+    [Switch]$RebootSBRouter,
+    [Switch]$OSReboot,
+    [Switch]$WaitSBRouter,
+    [Switch]$UpAllVM
 )
 
 if ($DownAllVM) {
