@@ -1,3 +1,20 @@
+<#
+.PARAMETER DownAllVM
+全てのVMを停止します
+
+.PARAMETER RebootSBRouter
+ソフトバンクのルーターを再起動します
+
+.PARAMETER OSReboot
+OSを再起動します
+
+.PARAMETER WaitSBRouter
+ソフトバンクのルーターの起動を待機します
+
+.PARAMETER UpAllVM
+全てのVMを起動します
+#>
+
 Param(
     [Switch]$DownAllVM,
     [Switch]$RebootSBRouter,
